@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--     <link rel="stylesheet" href="https://cemrekarakas.com/static/css/theme.css"> -->
     <link rel="icon" type="image/png" href="https://emoji.dutl.uk/png/64x64/🔍.png">
     <title>Humane Search</title>
     
@@ -11,10 +10,10 @@
     <meta property="og:image" name="image" content="https://www.wouterosterholt.com/wp-content/uploads/2013/09/MTHHHistanbul08.jpg" />
     <meta property="og:description" name="description" content="Search human content on the web." />
     <meta property="og:type" content="website" />
-<!--     <meta property="og:url" name="url" content="/">
-    <meta property="twitter:title" name="title" content="Humane Search" /> -->
+    <meta property="og:url" name="url" content="/">
+    <meta property="twitter:title" name="title" content="Humane Search" />
     <meta property="twitter:image" name="image" content="https://www.wouterosterholt.com/wp-content/uploads/2013/09/MTHHHistanbul08.jpg" />
-<!--     <link rel="canonical" href="/" /> -->
+    <link rel="canonical" href="/" />
   <style>
     * {
       font-family: 'Helvetica', 'Arial', sans-serif;
@@ -23,12 +22,34 @@
       max-width: 1000px;
       margin: auto;
     }
+    img {
+      max-width: 100%;
+    }
+    #h-logo {
+      height: 10em;
+    }
+    .gsc-search-box {
+      max-width: 500px;
+    }
+    button {
+      cursor: pointer;
+    }
+    .gcsc-branding-img-noclear {
+      opacity: 0.3;
+    }
+    .gcsc-find-more-on-google {
+      color: #777777 !important;
+    }
+    .gcsc-find-more-on-google-magnifier {
+      fill: #777777 !important;
+    }
   </style>
 <body>
   <div id='container'>
       <nav>
-        <h1>Humane Search</h1>
-        <small>Human-first search engine</small>
+        <img id="h-logo" src="/static/img/humane.png" alt="Humane Search" title="Humane Search">
+        <br>
+        <small>&nbsp;&nbsp;&nbsp;&nbsp;Human-first search engine</small>
       </nav>
       <main>
         <script async src="https://cse.google.com/cse.js?cx=8726d92e62cc54746">
