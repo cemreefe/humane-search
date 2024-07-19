@@ -2,5 +2,6 @@
 
 MVP for a search engine, without money-generator content-hoarding schemes.
 
-Unfortunately powered by google.
+Unfortunately powered by google™️.
 
+<https://humane-search.dutl.uk/>
